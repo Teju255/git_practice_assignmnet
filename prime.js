@@ -1,14 +1,14 @@
 // Check whether a number is Prime or not
 let n=12;
-let count=0;
+let c=0;
 for(let i=0;i<=n;i++){
 
     if(n%i==0)
     {
-        count++
+        c++
     }
 }
-if(count==2)
+if(c==2)
 {
     console.log("number is palindrom")
 }
